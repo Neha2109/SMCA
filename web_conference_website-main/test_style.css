@@ -1,0 +1,28 @@
+.nav-link
+{
+    margin-left: 10px;
+    color: black !important; 
+}
+
+/* body{
+    overflow: auto !important;
+} */
+
+.nav-link:hover
+{
+    color: #4070F4 !important;
+    border-bottom:3px solid #4070F4 ;
+}
+
+.active
+{
+    border-bottom:3px solid #4070F4;
+}
+
+.navbar
+{
+    top: 0% !important;
+    /* position: -webkit-sticky; */
+    position: sticky !important;
+    z-index: 20 !important;
+}

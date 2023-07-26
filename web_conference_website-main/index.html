@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Hello, world!</title>
+  <link rel="stylesheet" href="canva_home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
+</head>
+
+<body id="body" style = "bottom: 0px;">
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <header class="l-header" id="navbar_new" style="background-color: rgba(0,0,0,0);">
+      <nav class="nav bd-grid">
+          <div>
+              <a href="#" class="nav__logo"><img src="assets/logon.png" id="logo"></a>
+          </div>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item"><a href="./index.html" class="nav__link active">Home</a></li>
+                  <li class="nav__item"><a href="./Theme/Theme.html" class="nav__link">Theme</a></li>
+                  <li class="nav__item"><a href="./topicofinterest/topic.html" class="nav__link">Topic</a></li>
+                  <li class="nav__item"><a href="./members page conference/member.html" class="nav__link">Members</a></li>
+                  <li class="nav__item"><a href="./about-page/about.html" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="./Contact-Form/contact.html" class="nav__link">Contact</a></li>
+                  
+              </ul>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+              <i class='bx bx-menu'></i>
+          </div>
+      </nav>
+  </header>
+  <div class="container">
+    <canvas id="canva"></canvas>
+    <div class="centered"
+    >
+      <span class="centered_text" id="main_text" >
+      International Conference on Strategic Models in Computing Applications (SMCA)</span>
+      <br>
+      <br>
+      <div id="DateAndVenue">
+        <div class="centered_text" style="padding-left: 0%;">
+        <span id="coloured_text">Date</span>: 16-19 January 2022</div>
+        <div class="centered_text" style="padding-left: 0%;">
+        <span id = "coloured_text">Location</span>: Virtual</div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__title">IIIT Dharwad</div>
+    <div class="footer__social">
+        <a href="https://www.facebook.com/IIIT-Dharwad-107055984131970/" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+        <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+        <a href="https://twitter.com/dharwad_iiit" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+    </div>
+    <div>&#169; 2021 IIIT Dharwad all right reserved</div>
+</footer>
+  <script src="./canvas_final.js">
+  </script>
+  <script src="./js/main.js">
+  </script>
+  
+</body>
+
+</html>
